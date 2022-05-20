@@ -1,3 +1,4 @@
+
 import Navbar from "../Layouts/Navbar";
 
 const Welcome = () => {
@@ -18,6 +19,7 @@ const Welcome = () => {
         <p class="has-text-rigth">Hello, I'm Monika and I'll be showing you around</p>
       </div>
     </div>
+    
   </div>
   )
 
