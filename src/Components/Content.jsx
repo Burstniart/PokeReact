@@ -1,11 +1,13 @@
 import Pokemon from "./Pokemon";
+import SearchParams from "./SearchParams";
 
 
 const Content = () => {
   
   return (
 
-    <section className="section is-medium">
+    <section className="section is-small ">
+        <SearchParams/>
       <h1 className="title">This is a Pokémon</h1>
       <h2 className="subtitle">
         ~~~ Pokemon goes here ~~~
@@ -21,7 +23,6 @@ const Content = () => {
       image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png" 
       />
       </div>
-
     </section>
 
   )

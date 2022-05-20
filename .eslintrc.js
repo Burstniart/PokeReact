@@ -4,8 +4,16 @@ module.exports = {
         "es6": true,
         "node": true
     },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "extends": [
         "eslint:recommended",
+        "plugin:import/errors",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended",
         "plugin:react/jsx-runtime"
     ],
     "parserOptions": {
@@ -17,8 +25,10 @@ module.exports = {
     },
     "plugins": [
         "react",
-
+        "import",
+        "jsx-a11y"
     ],
-    "rules": {
+    "rules": { "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0
     }
 }
