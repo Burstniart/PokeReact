@@ -1,15 +1,14 @@
 import { useState } from 'react'
-import Welcome from './Components/Welcome'
 import './App.css'
-import Footer from './Layouts/Footer'
+import Page from './Components/Page'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-        <Welcome/>
-        <Footer/>
+        <Page/>
+        
     </div>
   )
 }

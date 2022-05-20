@@ -1,8 +1,8 @@
 
 const Navbar = () => {
   return ( 
-    <section class="hero is-dark is-medium ">
-      <div class="hero-head">
+    <section className="hero is-dark is-medium ">
+      <div className="hero-head">
         <nav className="navbar is-dark " role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item">
