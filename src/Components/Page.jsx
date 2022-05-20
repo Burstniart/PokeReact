@@ -1,5 +1,6 @@
 import Footer from "../Layouts/Footer";
 import Navbar from "../Layouts/Navbar";
+import Content from "./Content";
 import Welcome from "./Welcome";
 
 
@@ -10,6 +11,7 @@ const Page = () => {
     <div className="Page">
       <Navbar/>
       <Welcome/>
+      <Content/>
       <Footer/>
     </div>
   )

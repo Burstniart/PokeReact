@@ -1,3 +1,5 @@
+import React from 'react'
+import { ReactDOM } from 'react'
 import { useState } from 'react'
 import './App.css'
 import Page from './Components/Page'
