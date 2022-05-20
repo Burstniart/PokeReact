@@ -4,8 +4,8 @@ import { render } from "react-dom";
 const  Pokemon = props => {
   return (
     <div className="Pokemon">
-      I am a pokemon, horray!... Or am I????
-      <div className="columns">
+      I am a pokemon!
+
         <div className="column">
           <div className="card" >
             <div className="card-image is-128x128" >
@@ -23,7 +23,7 @@ const  Pokemon = props => {
             </div>
           </div>
         </div>
-      </div>
+
     </div>
   )
 }

@@ -10,7 +10,18 @@ const Content = () => {
       <h2 className="subtitle">
         ~~~ Pokemon goes here ~~~
       </h2>
-      <Pokemon name="Gardevoir" type="Psychic" image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png" />
+      <div className="columns">
+      <Pokemon name="Gardevoir" 
+      type="Psychic" 
+      image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png" 
+      />
+
+      <Pokemon name="Lopunny" 
+      type="Normal" 
+      image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png" 
+      />
+      </div>
+
     </section>
 
   )
