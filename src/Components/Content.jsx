@@ -46,17 +46,19 @@ const Content = () => {
         ~~~ Pokemon goes here ~~~
       </h2>
       <div className="columns">
-      <Pokemon name="Gardevoir" 
+      {/* <Pokemon name="Gardevoir" 
       type="Psychic" 
       image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png" 
-      />
+      /> */}
 
       {console.log(pokemons)}
 
-      <Pokemon name={pokemons.name}
+      {/* <Pokemon name={pokemons.name}
       type={pokemons.types}
       image={pokemons.image}
-      />
+      /> */}
+
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
       </div>
     </section>
 
