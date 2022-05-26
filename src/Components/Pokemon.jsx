@@ -26,25 +26,27 @@ const  Pokemon = props => {
   }
     
   return (
-    <div className="Pokemon">
-      I am a pokemon!
-        <div className="column">
-          <div className="card" >
-            <div className="card-image is-128x128" >
-              <figure className="image is-square ">
-                <img src={lePokemon.leImage} alt="Pokemon Image"/>
-              </figure>
-            </div>
-            <div className="card-content">
-              <div className="media">  
-                <div className="media-content">
-                  <p className="title is-2 capitalize">{lePokemon.name}</p>
-                  <p className="title is-4 capitalize">{lePokemon.leType}</p>
+    <div className="column is-3-desktop is-6-tablet is-narrow-mobile">
+      <div className="Pokemon ">
+        I am a pokemon!
+          <div className="">
+            <div className="card" >
+              <div className="card-image is-128x128" >
+                <figure className="image is-square ">
+                  <img src={lePokemon.leImage} alt="Pokemon Image"/>
+                </figure>
+              </div>
+              <div className="card-content">
+                <div className="media">  
+                  <div className="media-content">
+                    <p className="title is-3 is-4-desktop capitalize">{lePokemon.name}</p>
+                    <p className="title is-4 capitalize">{lePokemon.leType}</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+      </div>
     </div>
   )
 }

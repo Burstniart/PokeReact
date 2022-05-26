@@ -87,7 +87,13 @@ const SearchParams = () => {
           </div>
         </div>
       </form>
-        
+       
+       {/* delete cardtest, configure so that content recieves the list of pokemons and creates the Pokemon elements,
+        since that layout works better, or try to fx the layout inside search params, your call, and fix the type list,
+        currently only works the first time, should change every time to push search and have selected a new type
+        */}
+        {/* <div className="columns is-multiline">
+
         {
         
         lePokemons.map(lePokemon => (
@@ -95,6 +101,7 @@ const SearchParams = () => {
         ))
         
         }
+        </div> */}
   
       
       
