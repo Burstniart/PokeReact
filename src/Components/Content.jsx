@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import CardTest from "./CardTest";
 import Pokemon from "./Pokemon";
 import SearchParams from "./SearchParams";
 
@@ -36,9 +37,36 @@ const Content = () => {
       <h2 className="subtitle">
         ~~~ Pokemon goes here ~~~
       </h2>
-      <div className="columns">
+      <div className="columns is-multiline">
 
+      <CardTest/>
+      <CardTest/>
+      <CardTest/>
+      <CardTest/>
+      <CardTest/>
+      <CardTest/>
+      <CardTest/>
+      <CardTest/>
+      
+
+      {/* <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
       <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
+      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/> */}
+
 
       </div>
     </section>
