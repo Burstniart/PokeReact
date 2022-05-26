@@ -51,7 +51,7 @@ const Content = () => {
       image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png" 
       /> */}
 
-      {console.log(pokemons)}
+      
 
       {/* <Pokemon name={pokemons.name}
       type={pokemons.types}
