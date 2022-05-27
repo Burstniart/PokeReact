@@ -26,48 +26,20 @@ const Content = () => {
     
   // }
 
-  console.log("Hiiiiiiiii")
-  console.log(SearchParams.lePokemons)
   
   return (
 
     <section className="section is-small ">
-        <SearchParams/>
-      <h1 className="title">This is a Pokémon</h1>
+        <SearchParams />
+      {/* <h1 className="title">This is a Pokémon</h1>
       <h2 className="subtitle">
         ~~~ Pokemon goes here ~~~
-      </h2>
+      </h2> */}
       <div className="columns is-multiline">
+       
 
-      <CardTest/>
-      <CardTest/>
-      <CardTest/>
-      <CardTest/>
-      <CardTest/>
-      <CardTest/>
-      <CardTest/>
-      <CardTest/>
-      
-
-      {/* <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
       <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/>
-      <Pokemon url={"https://pokeapi.co/api/v2/pokemon/282/"}/> */}
-
-
+ 
       </div>
     </section>
 
