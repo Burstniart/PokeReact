@@ -25,10 +25,13 @@ export default function useTypeList(type) {
       setStatus("loading");
 
       const res = await fetch(
-        `https://pokeapi.co/api/v2/type/${type}/`
+        `https://pokeapi.co/api/v2/type/`
       )
       const json = await res.json()
-      localCache[type] = json.pokemon || []
+      const leTypesList = json.results.map(leTypes => {
+        return leTypes.name
+      })
+      localCache[type] = leTypesList || []
       setTypeList(localCache[type])
       setStatus("loaded")
       

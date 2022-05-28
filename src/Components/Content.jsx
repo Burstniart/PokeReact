@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import CardTest from "./CardTest";
+import useTypeList from "./useTypeList";
 import Pokemon from "./Pokemon";
 import SearchParams from "./SearchParams";
 
 
 const Content = () => {
-
+  
   // const [pokemons, setPokemons] = useState([])
 
   // useEffect(() => {

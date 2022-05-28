@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import useTypeList from "./useTypeList"
 import Pokemon from "./Pokemon"
 
 const TYPES =["normal", "fighting", "flying", "poison","ground", "rock", "bug", "ghost", "steel", "fire", "water", 
@@ -7,7 +8,7 @@ const TYPES =["normal", "fighting", "flying", "poison","ground", "rock", "bug", 
 const SearchParams = () => {
   const [pokemon, setPokemon] = useState("")
   const [type, setType] = useState("")
-  const types = []
+  // const [types] = useTypeList[type]
   const [lePokemons, setLePokemons] = useState([])
 
   
@@ -35,6 +36,7 @@ const SearchParams = () => {
       onSubmit={(e) => {
         e.preventDefault();
         requestLePokemons();
+        
       }}
       >
         <div className="field">
@@ -84,7 +86,8 @@ const SearchParams = () => {
           <div className="control">
         
             <button className="button is-link"
-            onClick={() => lePokemon(lePokemons)}
+            // onClick={console.log("clicked me: ",lePokemons)}
+            // onClick={() => lePokemon(lePokemons)}
             >Search</button>
           </div>
         </div>
@@ -98,7 +101,7 @@ const SearchParams = () => {
         <div className="columns is-multiline">
           {
             lePokemons.map(lePokemon => (
-              <Pokemon url={lePokemon.pokemon.url} />
+              <Pokemon url={lePokemon.pokemon.url} key={lePokemon.pokemon.name}/>
             ))
           }
         </div>
