@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import useTypeList from "./useTypeList"
 import Pokemon from "./Pokemon"
+import Results from "./Results"
 
 const TYPES =["normal", "fighting", "flying", "poison","ground", "rock", "bug", "ghost", "steel", "fire", "water", 
 "grass", "electric", "psychic", "ice", "dragon", "dark", "fairy", "unknown", "shadow"]
@@ -93,7 +94,7 @@ const SearchParams = () => {
         </div>
       </form>
        
-      <section className="section is-small ">
+      {/* <section className="section is-small ">
         <h1 className="title">This is a Pokémon</h1>
         <h2 className="subtitle">
           ~~~ Pokemon goes here ~~~
@@ -105,8 +106,8 @@ const SearchParams = () => {
             ))
           }
         </div>
-    </section>
-  
+    </section> */}
+  <Results lePokemons={lePokemons} />
       
       
       
