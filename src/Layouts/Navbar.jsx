@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return ( 
@@ -5,7 +6,7 @@ const Navbar = () => {
       <div className="hero-head">
         <nav className="navbar is-dark " role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <a className="navbar-item">
+            <a href="/" className="navbar-item">
               PokéReact
             </a>
           </div>

@@ -16,7 +16,7 @@ const Footer = () => {
     </p>
     <p>
       The data  is directly consumed from
-      <a href="https://pokeapi.co/"  target={"blank"}>The PokeApi</a>
+      <a href="https://pokeapi.co/"  target={"blank"}> The PokeApi</a>
     </p>
   </div>
 </footer>

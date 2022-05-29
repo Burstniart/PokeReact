@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { render } from "react-dom";
+import { Link } from "react-router-dom";
 
 const  Pokemon = props => {
 
@@ -29,7 +30,9 @@ const  Pokemon = props => {
     <div className="column is-3-desktop is-6-tablet is-narrow-mobile">
       <div className="Pokemon ">
         I am a pokemon!
-          <div className="">
+        {/* <Link></Link> */}
+          {/* <a href={`/details/${lePokemon.name}`}> */}
+          <Link to={`/details/${lePokemon.name}`} >
             <div className="card" >
               <div className="card-image is-128x128" >
                 <figure className="image is-square ">
@@ -45,7 +48,8 @@ const  Pokemon = props => {
                 </div>
               </div>
             </div>
-          </div>
+            </Link>
+          {/* </a> */}
       </div>
     </div>
   )
