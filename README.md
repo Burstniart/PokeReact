@@ -23,3 +23,5 @@ The Content.jsx file now contains a component that was part of it's code
 The SearchParams.jsx is what used to be just a form, but now handles an async request given by the "type" value of the form, which resolves in an array of elements that are mapped to another component to create the resulting cards.
 
 The Pokemon.jsx file is the component that creates cards given a url from the PokeApi, which is passed as a props "url", it then does an async function that retreieves data for a Pokemon the same way it did it for a type and finally it creates a card.
+
+
