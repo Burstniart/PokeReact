@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "start": "vite build --port process.env.PORT",
     "preview": "vite preview",
     "linter": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "linter-fix": "node ./node_modules/eslint/bin/eslint.js  --fix"
